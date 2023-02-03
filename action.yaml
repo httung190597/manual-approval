@@ -1,4 +1,4 @@
-name: Manual Workflow Approval
+name: Tunght Manual Workflow Approval
 description: Pause a workflow and get user approval to continue
 branding:
   icon: pause
@@ -24,4 +24,4 @@ inputs:
     default: false
 runs:
   using: docker
-  image: docker://ghcr.io/trstringer/manual-approval:1.8.0
+  image: docker://tunght1905/manual-approval:1.9.0
